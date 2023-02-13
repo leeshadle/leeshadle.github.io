@@ -673,3 +673,6 @@ a.card-link[aria-expanded="true"]:before{
             padding: 15% 15%;
         }
     }
+.card-columns.gx-0 {
+  column-gap:0;
+}
