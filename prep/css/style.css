@@ -188,7 +188,7 @@ header {
     padding: 1rem 1rem;
 }
 
-
+/* utilities */
 .mt-150 {
     margin-top: 15em;
 }
@@ -202,7 +202,9 @@ header {
 .img-stop {
     width: 200px;
 }
-
+.mh-[650px] {
+  min-height:650px;
+}
 
 
 #accordion .card-header {
