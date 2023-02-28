@@ -202,7 +202,7 @@ header {
 .img-stop {
     width: 200px;
 }
-.mh-[650px] {
+.mh-\[650px\] {
   min-height:650px;
 }
 
