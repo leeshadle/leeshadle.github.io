@@ -187,7 +187,7 @@ header {
     color: white;
     padding: 1rem 1rem;
 }
-.btn_aha_black {
+.btn_aha_black:hover {
   background-color:#EB2228;
   border-color:#eb2228;
 }
