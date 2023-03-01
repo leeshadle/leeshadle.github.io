@@ -187,6 +187,10 @@ header {
     color: white;
     padding: 1rem 1rem;
 }
+.btn_aha_black {
+  background-color:#EB2228;
+  border-color:#eb2228;
+}
 
 /* utilities */
 .mt-150 {
@@ -204,6 +208,12 @@ header {
 }
 .mh-\[650px\] {
   min-height:650px;
+}
+/* Extra-Small devices (600px and down) */
+@media only screen and (max-width: 600px) {
+  .sm\:pt-\[200px\] {
+    padding-top:200px;
+  }
 }
 
 
@@ -380,6 +390,9 @@ a.card-link[aria-expanded="true"]:before{
         .navbar-toggler, .navbar-collapse {
            margin-top: -95px;
         }
+        header {
+          background-position: 15%;
+      }
     }
     /* Small devices (600px --- 767px) */
     @media only screen and (min-width: 600px) {
@@ -479,6 +492,7 @@ a.card-link[aria-expanded="true"]:before{
             font-size: 16px;
             line-height: 20px;
         }
+
 
         .centered {
             padding: 10% 10%;
